@@ -17,6 +17,9 @@ git push -u origin <branch>		- pushed branch to origin, -u flag adds upstream (t
 git reset <ref>					- git reset current branch to <ref>
 git revert <ref>				- creates a commit on current branch that reverts the commit specified by <ref> by applying the invers diff
 git cherry-pick <ref1> <ref2>	- copy <ref1> and <ref2> on top of the current branch
+git describe <ref>				- <tag>_<numCommits>_g<hash>: Describes the closest ancestor tag in history, numCommits is how many commits away that tag is, and <hash> is the hash of the commit being described.
+git pull						- git fetch & git merge
+git pull --rebase				- git fetch & git rebase
 
 # GitBash
 
