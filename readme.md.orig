@@ -4,6 +4,9 @@
 2. git commit
 3. git checkout master
 4. git merge
-5. git rebase rebaseBranch
+<<<<<<< HEAD
+
 6. git rebase master
-7. git revert branch 
+=======
+5. git rebase rebaseBranch
+>>>>>>> git rebase branch
