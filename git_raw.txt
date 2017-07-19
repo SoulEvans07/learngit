@@ -1,0 +1,17 @@
+# Git
+
+git commit -m <message>			- commit with message
+git branch <branch>				- create new branch
+git checkout <branch>			- checkout <branch>
+git checkout -b <branch>		- create new branch & checkout
+git merge <branch>				- merge current branch with <branch>
+git branch -d <branch>			- remove local branch <branch>
+gir rebase <branch>				- copy current branch to <branch> and forwards to it with current branch creating a linear history
+git log --graph					- git tree view in CLI
+git checkout <branch>^			- move up one commit from <branch>
+git checkout <branch>~<num>		- move <num> amount of commit from <branch>
+git branch -f <branch> <ref>	- force move <branch> to <ref>
+git remote add origin <link>	- add remote repository named origin
+git push -u origin <branch>		- pushed branch to origin, -u flag adds upstream (tracking) reference {https://stackoverflow.com/questions/18867824/what-does-the-u-flag-mean-in-git-push-u-origin-master}
+git reset <ref>					- git reset current branch to <ref>
+git revert <ref>				- creates a commit on current branch that reverts the commit specified by <ref> by applying the invers diff
