@@ -5,6 +5,7 @@ git branch <branch>				- create new branch
 git checkout <branch>			- checkout <branch>
 git checkout -b <branch>		- create new branch & checkout
 git merge <branch>				- merge current branch with <branch>
+git push origin -d <branch>		- remove remote branch <branch>
 git branch -d <branch>			- remove local branch <branch>
 gir rebase <branch>				- copy current branch to <branch> and forwards to it with current branch creating a linear history
 git log --graph					- git tree view in CLI
