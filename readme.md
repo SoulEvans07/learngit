@@ -6,4 +6,3 @@
 4. git merge
 5. git rebase rebaseBranch
 6. git rebase master
-7. git revert branch 
