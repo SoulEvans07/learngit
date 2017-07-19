@@ -16,6 +16,7 @@ git remote add origin <link>	- add remote repository named origin
 git push -u origin <branch>		- pushed branch to origin, -u flag adds upstream (tracking) reference {https://stackoverflow.com/questions/18867824/what-does-the-u-flag-mean-in-git-push-u-origin-master}
 git reset <ref>					- git reset current branch to <ref>
 git revert <ref>				- creates a commit on current branch that reverts the commit specified by <ref> by applying the invers diff
+git cherry-pick <ref1> <ref2>	- copy <ref1> and <ref2> on top of the current branch
 
 # GitBash
 
