@@ -1,3 +1,4 @@
 # LearnGit
 
-initial commit
+1. initial commit
+2. git commit
