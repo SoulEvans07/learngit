@@ -1,4 +1,4 @@
-# Git
+# Git commands
 
 git commit -m <message>			- commit with message
 git branch <branch>				- create new branch
@@ -15,3 +15,7 @@ git remote add origin <link>	- add remote repository named origin
 git push -u origin <branch>		- pushed branch to origin, -u flag adds upstream (tracking) reference {https://stackoverflow.com/questions/18867824/what-does-the-u-flag-mean-in-git-push-u-origin-master}
 git reset <ref>					- git reset current branch to <ref>
 git revert <ref>				- creates a commit on current branch that reverts the commit specified by <ref> by applying the invers diff
+
+# GitBash
+
+echo $RANDOM >> entropy/01.txt	- generate entropy
