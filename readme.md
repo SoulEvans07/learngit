@@ -4,3 +4,5 @@
 2. git commit
 3. git checkout master
 4. git merge
+
+6. git rebase master
