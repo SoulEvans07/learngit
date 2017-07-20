@@ -20,6 +20,8 @@ git cherry-pick <ref1> <ref2>	- copy <ref1> and <ref2> on top of the current bra
 git describe <ref>				- <tag>_<numCommits>_g<hash>: Describes the closest ancestor tag in history, numCommits is how many commits away that tag is, and <hash> is the hash of the commit being described.
 git pull						- git fetch & git merge
 git pull --rebase				- git fetch & git rebase
+git checkout -b <branch> <remote>/<remoteBranch>	- checkout new branch that's tracking selected remote branch
+git branch -u <remote>/<remoteBranch> <branch>	- setting the tracking on <branch> to <origin>/<remoteBranch>
 
 # GitBash
 
