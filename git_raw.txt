@@ -22,6 +22,8 @@ git pull						- git fetch & git merge
 git pull --rebase				- git fetch & git rebase
 git checkout -b <branch> <remote>/<remoteBranch>	- checkout new branch that's tracking selected remote branch
 git branch -u <remote>/<remoteBranch> <branch>	- setting the tracking on <branch> to <origin>/<remoteBranch>
+git push <remote> <place>		- push <place> to origin, no matter where you are checked out
+git push <remote> <from>:<to>	- push <from> to remote on the <to> branch
 
 # GitBash
 
