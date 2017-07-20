@@ -24,6 +24,11 @@ git checkout -b <branch> <remote>/<remoteBranch>	- checkout new branch that's tr
 git branch -u <remote>/<remoteBranch> <branch>	- setting the tracking on <branch> to <origin>/<remoteBranch>
 git push <remote> <place>		- push <place> to origin, no matter where you are checked out
 git push <remote> <from>:<to>	- push <from> to remote on the <to> branch
+git fetch <remote> <from>:<to>	- fetch <from> from the remote to the <to> branch
+git push <remote> :<remoteBranch>	- technicly we are pushing nothing onto <remoteBranch> and thats equals to deleting that remote branch from the <remote>
+git fetch <remote> :<branch>		- fetching nothing from origin to a non existing branch will create a new branch where we stand
+git pull <remote> <from>:<to>		= git fetch <remote> <from>:<to>; git merge <to>
+git pull <remote> <branch>			= git fetch <remote> <branch>; git merge <remote>/<branch>
 
 # GitBash
 
