@@ -3,6 +3,9 @@
 using: <a href="http://learngitbranching.js.org/">http://learngitbranching.js.org/</a><br>
 sandbox: <a href="http://learngitbranching.js.org/?NODEMO">http://learngitbranching.js.org/?NODEMO</a>
 
+## Generate entropy
+echo $RANDOM >> entropy/01.txt
+
 ## Commands
 <table>
 	<tr>
