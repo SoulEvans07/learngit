@@ -6,6 +6,10 @@ sandbox: <a href="http://learngitbranching.js.org/?NODEMO">http://learngitbranch
 ## Generate entropy
 echo $RANDOM >> entropy/01.txt
 
+## Rebase
+
+https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-with-remote-master
+
 ## Commands
 <table>
 	<tr>
